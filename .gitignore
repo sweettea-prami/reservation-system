@@ -1,0 +1,21 @@
+
+# Environment variables in any folder
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example environment files
+!.env.example
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Logs
+npm-debug.log*
